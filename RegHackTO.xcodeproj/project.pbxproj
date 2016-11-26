@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		446133AB1DE9180F00ABC9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446133AA1DE9180E00ABC9D2 /* AppDelegate.swift */; };
+		446133AD1DE9180F00ABC9D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446133AC1DE9180F00ABC9D2 /* LoginViewController.swift */; };
+		446133B01DE9180F00ABC9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446133AE1DE9180F00ABC9D2 /* Main.storyboard */; };
+		446133B31DE9180F00ABC9D2 /* RegHackTO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 446133B11DE9180F00ABC9D2 /* RegHackTO.xcdatamodeld */; };
+		446133B51DE9180F00ABC9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446133B41DE9180F00ABC9D2 /* Assets.xcassets */; };
+		446133B81DE9180F00ABC9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446133B61DE9180F00ABC9D2 /* LaunchScreen.storyboard */; };
+		446133C31DE9193800ABC9D2 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446133C21DE9193800ABC9D2 /* LocalAuthentication.framework */; };
+		446133C71DE93C4000ABC9D2 /* touchID@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133C61DE93C3F00ABC9D2 /* touchID@2x.png */; };
+		446133C91DE93E5800ABC9D2 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446133C81DE93E5800ABC9D2 /* ValidationViewController.swift */; };
+		446133CB1DE9D06900ABC9D2 /* InstitutionsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446133CA1DE9D06900ABC9D2 /* InstitutionsCollectionViewController.swift */; };
+		446133DB1DE9DF1D00ABC9D2 /* CIBC@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133CF1DE9DF1D00ABC9D2 /* CIBC@2x.png */; };
+		446133DC1DE9DF1D00ABC9D2 /* Libro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133D01DE9DF1D00ABC9D2 /* Libro@2x.png */; };
+		446133DE1DE9DF1D00ABC9D2 /* OSC@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133D21DE9DF1D00ABC9D2 /* OSC@2x.png */; };
+		446133DF1DE9DF1D00ABC9D2 /* OSFI@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133D31DE9DF1D00ABC9D2 /* OSFI@2x.png */; };
+		446133E01DE9DF1D00ABC9D2 /* PP@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133D41DE9DF1D00ABC9D2 /* PP@2x.png */; };
+		446133E11DE9DF1D00ABC9D2 /* RBC@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133D51DE9DF1D00ABC9D2 /* RBC@2x.png */; };
+		446133E31DE9DF1D00ABC9D2 /* TD@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133D71DE9DF1D00ABC9D2 /* TD@2x.png */; };
+		446133E41DE9DF1D00ABC9D2 /* TOEnterprise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133D81DE9DF1D00ABC9D2 /* TOEnterprise@2x.png */; };
+		446133E81DE9E6C500ABC9D2 /* InstitutionImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446133E71DE9E6C500ABC9D2 /* InstitutionImageCell.swift */; };
+		446133EE1DE9F63800ABC9D2 /* BMO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133E91DE9F63800ABC9D2 /* BMO@2x.png */; };
+		446133EF1DE9F63800ABC9D2 /* Canada_Life@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133EA1DE9F63800ABC9D2 /* Canada_Life@2x.png */; };
+		446133F01DE9F63800ABC9D2 /* NB@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133EB1DE9F63800ABC9D2 /* NB@2x.png */; };
+		446133F11DE9F63800ABC9D2 /* ScotiaBank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133EC1DE9F63800ABC9D2 /* ScotiaBank@2x.png */; };
+		446133F21DE9F63800ABC9D2 /* zurich@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133ED1DE9F63800ABC9D2 /* zurich@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		446133A71DE9180E00ABC9D2 /* RegHackTO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegHackTO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		446133AA1DE9180E00ABC9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		446133AC1DE9180F00ABC9D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		446133AF1DE9180F00ABC9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		446133B21DE9180F00ABC9D2 /* RegHackTO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RegHackTO.xcdatamodel; sourceTree = "<group>"; };
+		446133B41DE9180F00ABC9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		446133B71DE9180F00ABC9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		446133B91DE9180F00ABC9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446133C21DE9193800ABC9D2 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		446133C61DE93C3F00ABC9D2 /* touchID@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "touchID@2x.png"; path = "images/touchID@2x.png"; sourceTree = "<group>"; };
+		446133C81DE93E5800ABC9D2 /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ValidationViewController.swift; path = ViewControllers/ValidationViewController.swift; sourceTree = "<group>"; };
+		446133CA1DE9D06900ABC9D2 /* InstitutionsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstitutionsCollectionViewController.swift; path = ViewControllers/InstitutionsCollectionViewController.swift; sourceTree = "<group>"; };
+		446133CF1DE9DF1D00ABC9D2 /* CIBC@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CIBC@2x.png"; path = "images/CIBC@2x.png"; sourceTree = "<group>"; };
+		446133D01DE9DF1D00ABC9D2 /* Libro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Libro@2x.png"; path = "images/Libro@2x.png"; sourceTree = "<group>"; };
+		446133D21DE9DF1D00ABC9D2 /* OSC@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSC@2x.png"; path = "images/OSC@2x.png"; sourceTree = "<group>"; };
+		446133D31DE9DF1D00ABC9D2 /* OSFI@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSFI@2x.png"; path = "images/OSFI@2x.png"; sourceTree = "<group>"; };
+		446133D41DE9DF1D00ABC9D2 /* PP@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PP@2x.png"; path = "images/PP@2x.png"; sourceTree = "<group>"; };
+		446133D51DE9DF1D00ABC9D2 /* RBC@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RBC@2x.png"; path = "images/RBC@2x.png"; sourceTree = "<group>"; };
+		446133D71DE9DF1D00ABC9D2 /* TD@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TD@2x.png"; path = "images/TD@2x.png"; sourceTree = "<group>"; };
+		446133D81DE9DF1D00ABC9D2 /* TOEnterprise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TOEnterprise@2x.png"; path = "images/TOEnterprise@2x.png"; sourceTree = "<group>"; };
+		446133E71DE9E6C500ABC9D2 /* InstitutionImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstitutionImageCell.swift; path = ViewControllers/InstitutionImageCell.swift; sourceTree = "<group>"; };
+		446133E91DE9F63800ABC9D2 /* BMO@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BMO@2x.png"; path = "images/BMO@2x.png"; sourceTree = "<group>"; };
+		446133EA1DE9F63800ABC9D2 /* Canada_Life@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Canada_Life@2x.png"; path = "images/Canada_Life@2x.png"; sourceTree = "<group>"; };
+		446133EB1DE9F63800ABC9D2 /* NB@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NB@2x.png"; path = "images/NB@2x.png"; sourceTree = "<group>"; };
+		446133EC1DE9F63800ABC9D2 /* ScotiaBank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ScotiaBank@2x.png"; path = "images/ScotiaBank@2x.png"; sourceTree = "<group>"; };
+		446133ED1DE9F63800ABC9D2 /* zurich@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zurich@2x.png"; path = "images/zurich@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		446133A41DE9180E00ABC9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446133C31DE9193800ABC9D2 /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4461339E1DE9180E00ABC9D2 = {
+			isa = PBXGroup;
+			children = (
+				446133A91DE9180E00ABC9D2 /* RegHackTO */,
+				446133A81DE9180E00ABC9D2 /* Products */,
+				446133C11DE9193800ABC9D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		446133A81DE9180E00ABC9D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				446133A71DE9180E00ABC9D2 /* RegHackTO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		446133A91DE9180E00ABC9D2 /* RegHackTO */ = {
+			isa = PBXGroup;
+			children = (
+				446133CC1DE9DF0300ABC9D2 /* images */,
+				446133AA1DE9180E00ABC9D2 /* AppDelegate.swift */,
+				446133AC1DE9180F00ABC9D2 /* LoginViewController.swift */,
+				446133AE1DE9180F00ABC9D2 /* Main.storyboard */,
+				446133CA1DE9D06900ABC9D2 /* InstitutionsCollectionViewController.swift */,
+				446133E71DE9E6C500ABC9D2 /* InstitutionImageCell.swift */,
+				446133B41DE9180F00ABC9D2 /* Assets.xcassets */,
+				446133B61DE9180F00ABC9D2 /* LaunchScreen.storyboard */,
+				446133B91DE9180F00ABC9D2 /* Info.plist */,
+				446133B11DE9180F00ABC9D2 /* RegHackTO.xcdatamodeld */,
+				446133C81DE93E5800ABC9D2 /* ValidationViewController.swift */,
+			);
+			path = RegHackTO;
+			sourceTree = "<group>";
+		};
+		446133C11DE9193800ABC9D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				446133C21DE9193800ABC9D2 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		446133CC1DE9DF0300ABC9D2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				446133E91DE9F63800ABC9D2 /* BMO@2x.png */,
+				446133EA1DE9F63800ABC9D2 /* Canada_Life@2x.png */,
+				446133EB1DE9F63800ABC9D2 /* NB@2x.png */,
+				446133EC1DE9F63800ABC9D2 /* ScotiaBank@2x.png */,
+				446133ED1DE9F63800ABC9D2 /* zurich@2x.png */,
+				446133CF1DE9DF1D00ABC9D2 /* CIBC@2x.png */,
+				446133D01DE9DF1D00ABC9D2 /* Libro@2x.png */,
+				446133D21DE9DF1D00ABC9D2 /* OSC@2x.png */,
+				446133D31DE9DF1D00ABC9D2 /* OSFI@2x.png */,
+				446133D41DE9DF1D00ABC9D2 /* PP@2x.png */,
+				446133D51DE9DF1D00ABC9D2 /* RBC@2x.png */,
+				446133D71DE9DF1D00ABC9D2 /* TD@2x.png */,
+				446133D81DE9DF1D00ABC9D2 /* TOEnterprise@2x.png */,
+				446133C61DE93C3F00ABC9D2 /* touchID@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		446133A61DE9180E00ABC9D2 /* RegHackTO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446133BC1DE9180F00ABC9D2 /* Build configuration list for PBXNativeTarget "RegHackTO" */;
+			buildPhases = (
+				446133A31DE9180E00ABC9D2 /* Sources */,
+				446133A41DE9180E00ABC9D2 /* Frameworks */,
+				446133A51DE9180E00ABC9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegHackTO;
+			productName = RegHackTO;
+			productReference = 446133A71DE9180E00ABC9D2 /* RegHackTO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4461339F1DE9180E00ABC9D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Yevhen Kim";
+				TargetAttributes = {
+					446133A61DE9180E00ABC9D2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZQULK99ND9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 446133A21DE9180E00ABC9D2 /* Build configuration list for PBXProject "RegHackTO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4461339E1DE9180E00ABC9D2;
+			productRefGroup = 446133A81DE9180E00ABC9D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				446133A61DE9180E00ABC9D2 /* RegHackTO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		446133A51DE9180E00ABC9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446133F11DE9F63800ABC9D2 /* ScotiaBank@2x.png in Resources */,
+				446133B81DE9180F00ABC9D2 /* LaunchScreen.storyboard in Resources */,
+				446133E01DE9DF1D00ABC9D2 /* PP@2x.png in Resources */,
+				446133E11DE9DF1D00ABC9D2 /* RBC@2x.png in Resources */,
+				446133EF1DE9F63800ABC9D2 /* Canada_Life@2x.png in Resources */,
+				446133EE1DE9F63800ABC9D2 /* BMO@2x.png in Resources */,
+				446133B51DE9180F00ABC9D2 /* Assets.xcassets in Resources */,
+				446133C71DE93C4000ABC9D2 /* touchID@2x.png in Resources */,
+				446133E31DE9DF1D00ABC9D2 /* TD@2x.png in Resources */,
+				446133DF1DE9DF1D00ABC9D2 /* OSFI@2x.png in Resources */,
+				446133E41DE9DF1D00ABC9D2 /* TOEnterprise@2x.png in Resources */,
+				446133F01DE9F63800ABC9D2 /* NB@2x.png in Resources */,
+				446133B01DE9180F00ABC9D2 /* Main.storyboard in Resources */,
+				446133DC1DE9DF1D00ABC9D2 /* Libro@2x.png in Resources */,
+				446133DB1DE9DF1D00ABC9D2 /* CIBC@2x.png in Resources */,
+				446133DE1DE9DF1D00ABC9D2 /* OSC@2x.png in Resources */,
+				446133F21DE9F63800ABC9D2 /* zurich@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		446133A31DE9180E00ABC9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446133AD1DE9180F00ABC9D2 /* LoginViewController.swift in Sources */,
+				446133CB1DE9D06900ABC9D2 /* InstitutionsCollectionViewController.swift in Sources */,
+				446133B31DE9180F00ABC9D2 /* RegHackTO.xcdatamodeld in Sources */,
+				446133AB1DE9180F00ABC9D2 /* AppDelegate.swift in Sources */,
+				446133E81DE9E6C500ABC9D2 /* InstitutionImageCell.swift in Sources */,
+				446133C91DE93E5800ABC9D2 /* ValidationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		446133AE1DE9180F00ABC9D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446133AF1DE9180F00ABC9D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		446133B61DE9180F00ABC9D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446133B71DE9180F00ABC9D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		446133BA1DE9180F00ABC9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		446133BB1DE9180F00ABC9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		446133BD1DE9180F00ABC9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQULK99ND9;
+				INFOPLIST_FILE = RegHackTO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yevhenkim.RegHackTO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		446133BE1DE9180F00ABC9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQULK99ND9;
+				INFOPLIST_FILE = RegHackTO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yevhenkim.RegHackTO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		446133A21DE9180E00ABC9D2 /* Build configuration list for PBXProject "RegHackTO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446133BA1DE9180F00ABC9D2 /* Debug */,
+				446133BB1DE9180F00ABC9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446133BC1DE9180F00ABC9D2 /* Build configuration list for PBXNativeTarget "RegHackTO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446133BD1DE9180F00ABC9D2 /* Debug */,
+				446133BE1DE9180F00ABC9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		446133B11DE9180F00ABC9D2 /* RegHackTO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				446133B21DE9180F00ABC9D2 /* RegHackTO.xcdatamodel */,
+			);
+			currentVersion = 446133B21DE9180F00ABC9D2 /* RegHackTO.xcdatamodel */;
+			path = RegHackTO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4461339F1DE9180E00ABC9D2 /* Project object */;
+}
