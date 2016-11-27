@@ -15,7 +15,9 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var touchButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+
         let pulseAnimation = CABasicAnimation(keyPath: "opacity")
         pulseAnimation.duration = 2
         pulseAnimation.fromValue = 0
@@ -64,7 +66,6 @@ class LoginViewController: UIViewController {
                         
                         let message = self.errorMessageForLAErrorCode(errorCode: error._code)
                         self.showAlertWithTitle(title: "Error", message: message)
-                        
                     }
                 }
         })
@@ -138,8 +139,7 @@ class LoginViewController: UIViewController {
             
         }
         
-        return message
-        
+        return message        
     }
 }
 

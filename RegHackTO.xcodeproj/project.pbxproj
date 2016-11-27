@@ -31,6 +31,12 @@
 		446133F01DE9F63800ABC9D2 /* NB@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133EB1DE9F63800ABC9D2 /* NB@2x.png */; };
 		446133F11DE9F63800ABC9D2 /* ScotiaBank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133EC1DE9F63800ABC9D2 /* ScotiaBank@2x.png */; };
 		446133F21DE9F63800ABC9D2 /* zurich@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133ED1DE9F63800ABC9D2 /* zurich@2x.png */; };
+		446133F41DEA031D00ABC9D2 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446133F31DEA031C00ABC9D2 /* ListTableViewController.swift */; };
+		446133F61DEA059200ABC9D2 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446133F51DEA059200ABC9D2 /* ListCell.swift */; };
+		446133FB1DEA235000ABC9D2 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446133FA1DEA235000ABC9D2 /* Styles.swift */; };
+		446133FD1DEA302600ABC9D2 /* profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133FC1DEA302600ABC9D2 /* profile@2x.png */; };
+		446133FF1DEA5DB400ABC9D2 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446133FE1DEA5DB400ABC9D2 /* check@2x.png */; };
+		446134011DEA8C9A00ABC9D2 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 446134001DEA8C9A00ABC9D2 /* default.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +66,12 @@
 		446133EB1DE9F63800ABC9D2 /* NB@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NB@2x.png"; path = "images/NB@2x.png"; sourceTree = "<group>"; };
 		446133EC1DE9F63800ABC9D2 /* ScotiaBank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ScotiaBank@2x.png"; path = "images/ScotiaBank@2x.png"; sourceTree = "<group>"; };
 		446133ED1DE9F63800ABC9D2 /* zurich@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zurich@2x.png"; path = "images/zurich@2x.png"; sourceTree = "<group>"; };
+		446133F31DEA031C00ABC9D2 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewController.swift; path = ViewControllers/ListTableViewController.swift; sourceTree = "<group>"; };
+		446133F51DEA059200ABC9D2 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListCell.swift; path = ViewControllers/ListCell.swift; sourceTree = "<group>"; };
+		446133FA1DEA235000ABC9D2 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Styles.swift; path = "untitled folder/Styles.swift"; sourceTree = "<group>"; };
+		446133FC1DEA302600ABC9D2 /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile@2x.png"; path = "images/profile@2x.png"; sourceTree = "<group>"; };
+		446133FE1DEA5DB400ABC9D2 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check@2x.png"; path = "images/check@2x.png"; sourceTree = "<group>"; };
+		446134001DEA8C9A00ABC9D2 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = default.jpg; path = images/default.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,17 +106,12 @@
 		446133A91DE9180E00ABC9D2 /* RegHackTO */ = {
 			isa = PBXGroup;
 			children = (
-				446133CC1DE9DF0300ABC9D2 /* images */,
 				446133AA1DE9180E00ABC9D2 /* AppDelegate.swift */,
-				446133AC1DE9180F00ABC9D2 /* LoginViewController.swift */,
-				446133AE1DE9180F00ABC9D2 /* Main.storyboard */,
-				446133CA1DE9D06900ABC9D2 /* InstitutionsCollectionViewController.swift */,
-				446133E71DE9E6C500ABC9D2 /* InstitutionImageCell.swift */,
-				446133B41DE9180F00ABC9D2 /* Assets.xcassets */,
-				446133B61DE9180F00ABC9D2 /* LaunchScreen.storyboard */,
-				446133B91DE9180F00ABC9D2 /* Info.plist */,
-				446133B11DE9180F00ABC9D2 /* RegHackTO.xcdatamodeld */,
-				446133C81DE93E5800ABC9D2 /* ValidationViewController.swift */,
+				446133FA1DEA235000ABC9D2 /* Styles.swift */,
+				446133F71DEA1CA700ABC9D2 /* ViewControllers */,
+				446133F81DEA1CB700ABC9D2 /* CustomCells */,
+				446133CC1DE9DF0300ABC9D2 /* images */,
+				446133F91DEA1CDC00ABC9D2 /* Supporting Files */,
 			);
 			path = RegHackTO;
 			sourceTree = "<group>";
@@ -120,6 +127,9 @@
 		446133CC1DE9DF0300ABC9D2 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				446134001DEA8C9A00ABC9D2 /* default.jpg */,
+				446133FE1DEA5DB400ABC9D2 /* check@2x.png */,
+				446133FC1DEA302600ABC9D2 /* profile@2x.png */,
 				446133E91DE9F63800ABC9D2 /* BMO@2x.png */,
 				446133EA1DE9F63800ABC9D2 /* Canada_Life@2x.png */,
 				446133EB1DE9F63800ABC9D2 /* NB@2x.png */,
@@ -136,6 +146,38 @@
 				446133C61DE93C3F00ABC9D2 /* touchID@2x.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		446133F71DEA1CA700ABC9D2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				446133AC1DE9180F00ABC9D2 /* LoginViewController.swift */,
+				446133F31DEA031C00ABC9D2 /* ListTableViewController.swift */,
+				446133C81DE93E5800ABC9D2 /* ValidationViewController.swift */,
+				446133CA1DE9D06900ABC9D2 /* InstitutionsCollectionViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		446133F81DEA1CB700ABC9D2 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				446133F51DEA059200ABC9D2 /* ListCell.swift */,
+				446133E71DE9E6C500ABC9D2 /* InstitutionImageCell.swift */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		446133F91DEA1CDC00ABC9D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				446133AE1DE9180F00ABC9D2 /* Main.storyboard */,
+				446133B41DE9180F00ABC9D2 /* Assets.xcassets */,
+				446133B61DE9180F00ABC9D2 /* LaunchScreen.storyboard */,
+				446133B91DE9180F00ABC9D2 /* Info.plist */,
+				446133B11DE9180F00ABC9D2 /* RegHackTO.xcdatamodeld */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,13 +250,16 @@
 				446133C71DE93C4000ABC9D2 /* touchID@2x.png in Resources */,
 				446133E31DE9DF1D00ABC9D2 /* TD@2x.png in Resources */,
 				446133DF1DE9DF1D00ABC9D2 /* OSFI@2x.png in Resources */,
+				446133FF1DEA5DB400ABC9D2 /* check@2x.png in Resources */,
 				446133E41DE9DF1D00ABC9D2 /* TOEnterprise@2x.png in Resources */,
 				446133F01DE9F63800ABC9D2 /* NB@2x.png in Resources */,
 				446133B01DE9180F00ABC9D2 /* Main.storyboard in Resources */,
+				446133FD1DEA302600ABC9D2 /* profile@2x.png in Resources */,
 				446133DC1DE9DF1D00ABC9D2 /* Libro@2x.png in Resources */,
 				446133DB1DE9DF1D00ABC9D2 /* CIBC@2x.png in Resources */,
 				446133DE1DE9DF1D00ABC9D2 /* OSC@2x.png in Resources */,
 				446133F21DE9F63800ABC9D2 /* zurich@2x.png in Resources */,
+				446134011DEA8C9A00ABC9D2 /* default.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,12 +270,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446133FB1DEA235000ABC9D2 /* Styles.swift in Sources */,
 				446133AD1DE9180F00ABC9D2 /* LoginViewController.swift in Sources */,
 				446133CB1DE9D06900ABC9D2 /* InstitutionsCollectionViewController.swift in Sources */,
 				446133B31DE9180F00ABC9D2 /* RegHackTO.xcdatamodeld in Sources */,
 				446133AB1DE9180F00ABC9D2 /* AppDelegate.swift in Sources */,
 				446133E81DE9E6C500ABC9D2 /* InstitutionImageCell.swift in Sources */,
+				446133F61DEA059200ABC9D2 /* ListCell.swift in Sources */,
 				446133C91DE93E5800ABC9D2 /* ValidationViewController.swift in Sources */,
+				446133F41DEA031D00ABC9D2 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
